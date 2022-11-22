@@ -1,0 +1,1 @@
+web: gunicorn serve_static_index:app
