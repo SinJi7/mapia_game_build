@@ -190,6 +190,6 @@ def messageReceived(methods=['GET', 'POST']):
 
 if __name__ == '__main__':
 
-    socket.run(app, port=4000)
+    socket.run(app, host='0.0.0.0', port=4000)
     
 
